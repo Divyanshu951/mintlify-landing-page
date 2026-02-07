@@ -1,0 +1,552 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Mintlify | Clone</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container">
+        <nav class="nav">
+          <div class="nav-left">
+            <a href="#" class="brand">
+              <img src="assets/logo.svg" alt="Logo" class="page-logo" />
+            </a>
+          </div>
+          <ul class="nav-list">
+            <li><a href="#">Resources</a></li>
+            <li><a href="#">Documentation</a></li>
+            <li><a href="#">Customers</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Pricing</a></li>
+          </ul>
+          <div class="nav-btn">
+            <button class="btn ghost-btn">Contact Sales</button>
+            <button class="btn primary-btn">Start for free</button>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <div class="hero-background"></div>
+
+      <section class="hero">
+        <div class="pill-badge">
+          <span class="badge-tag">New</span>
+          <p>Self-updating docs with agent suggestions</p>
+          <span class="icon-wrap">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              viewBox="0 0 24 24"
+              fill="currentColor"
+            >
+              <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+              <path
+                d="M12 2c5.523 0 10 4.477 10 10a10 10 0 0 1 -20 0c0 -5.523 4.477 -10 10 -10m-.293 6.293a1 1 0 0 0 -1.414 0l-.083 .094a1 1 0 0 0 .083 1.32l2.292 2.293l-2.292 2.293a1 1 0 0 0 1.414 1.414l3 -3a1 1 0 0 0 0 -1.414z"
+              />
+            </svg>
+          </span>
+        </div>
+
+        <h1 class="main-heading">The Intelligent Knowledge Platform</h1>
+        <p class="sub-heading">
+          Helping teams create and maintain world-class documentation built for
+          both humans and AI
+        </p>
+
+        <div class="hero-input-group">
+          <input type="email" placeholder="Email address" />
+          <button>Start Now</button>
+        </div>
+
+        <div class="hero-visual">
+          <img src="./assets/hero-image-light.svg" alt="Platform Showcase" />
+        </div>
+      </section>
+
+      <section class="partners-section">
+        <div class="partners-grid">
+          <div class="partner-logo">
+            <img src="./assets/anthropic-partner.svg" alt="Anthropic" />
+          </div>
+          <div class="partner-logo">
+            <img src="./assets/coinbase.svg" alt="Coinbase" />
+          </div>
+          <div class="partner-logo">
+            <img src="./assets/microsoft.svg" alt="Microsoft" />
+          </div>
+          <div class="partner-logo partner-perplexity">
+            <img
+              src="./assets/perplexity-color-logo.svg"
+              alt="Perplexity Logo"
+              class="perplexity-icon"
+            />
+            <img
+              src="./assets/perplexity-text.svg"
+              alt="Perplexity"
+              class="perplexity-text"
+            />
+          </div>
+          <div class="partner-logo">
+            <img src="./assets/hubspot.svg" alt="HubSpot" />
+          </div>
+          <div class="partner-logo">
+            <img src="./assets/xicon.svg" alt="X" />
+          </div>
+          <div class="partner-logo">
+            <img src="./assets/paypal.svg" alt="PayPal" />
+          </div>
+          <div class="partner-logo">
+            <img src="/assets/lovable-dark-png.svg" alt="Lovable" />
+          </div>
+        </div>
+      </section>
+
+      <section class="features-container">
+        <div class="section-header">
+          <h2>Built for the intelligence age</h2>
+          <p>
+            Integrate AI into every part of your docs lifecycle. Woven into how
+            your knowledge is written, maintained, and understood.
+          </p>
+        </div>
+
+        <div class="bento-grid">
+          <div class="feature-card half">
+            <div class="card-text">
+              <span class="mono-label">LLMS. TXT & MCP</span>
+              <h3>Built for both people and AI</h3>
+              <p>
+                Ensure your product shows up in the AI workflows users already
+                rely on. We support llms.txt, MCP, and whatever comes next.
+              </p>
+            </div>
+            <div class="card-visual stack-visual">
+              <div class="stack-layer layer-1"></div>
+              <div class="stack-layer layer-2"></div>
+              <div class="stack-layer layer-3">
+                <div class="skeleton-lines"></div>
+                <button class="copy-btn">Copy page</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="feature-card half">
+            <div class="card-text">
+              <span class="mono-label">AGENT</span>
+              <h3>Self-updating knowledge management</h3>
+              <p>
+                Draft, edit, and maintain content with a context-aware agent.
+                Move faster without the documentation debt.
+              </p>
+            </div>
+            <div class="card-visual workflow-visual">
+              <div class="connector-line"></div>
+              <div class="node check">✓</div>
+              <div class="node check">✓</div>
+              <div class="node star">✦</div>
+              <div class="node load"></div>
+            </div>
+          </div>
+
+          <div class="feature-card full">
+            <div class="card-text center">
+              <span class="mono-label">ASSISTANT</span>
+              <h3>Intelligent assistance for your users</h3>
+              <p>
+                Turn every documentation visit into a guided conversation. Your
+                AI assistant understands context and delivers what users need.
+              </p>
+            </div>
+            <div class="card-visual video-visual">
+              <img src="assets/assistant.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <article class="enterprise-article">
+        <div class="enterprise-header">
+          <div class="text-group">
+            <span class="mono-label">ENTERPRISE-REINVENTION</span>
+            <h2>Bring intelligence to enterprise knowledge</h2>
+            <p>
+              Modernize without the rebuild with enterprise-grade professional
+              service & security.
+            </p>
+          </div>
+          <button class="cta-button dark">Explore for enterprise</button>
+        </div>
+
+        <div class="info-grid">
+          <div class="info-item">
+            <div class="icon-box">
+              <img src="assets/build.svg" style="height: 30px" alt="build" />
+            </div>
+            <h3>Build with partnership</h3>
+            <p>
+              Direct, white-glove access to our experts. Dedicated migration
+              support and guidance tailored to your setup.
+            </p>
+          </div>
+          <div class="info-item">
+            <div class="icon-box">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+                class="icon icon-tabler icons-tabler-filled icon-tabler-shield-lock"
+              >
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                <path
+                  d="M11.998 2l.118 .007l.059 .008l.061 .013l.111 .034a.993 .993 0 0 1 .217 .112l.104 .082l.255 .218a11 11 0 0 0 7.189 2.537l.342 -.01a1 1 0 0 1 1.005 .717a13 13 0 0 1 -9.208 16.25a1 1 0 0 1 -.502 0a13 13 0 0 1 -9.209 -16.25a1 1 0 0 1 1.005 -.717a11 11 0 0 0 7.531 -2.527l.263 -.225l.096 -.075a.993 .993 0 0 1 .217 -.112l.112 -.034a.97 .97 0 0 1 .119 -.021l.115 -.007zm.002 7a2 2 0 0 0 -1.995 1.85l-.005 .15l.005 .15a2 2 0 0 0 .995 1.581v1.769l.007 .117a1 1 0 0 0 1.993 -.117l.001 -1.768a2 2 0 0 0 -1.001 -3.732z"
+                ></path>
+              </svg>
+            </div>
+            <h3>Compliance and access control</h3>
+            <p>
+              Compliant with SOC 2. Process for ISO/27001 and GDPR. Secure
+              access and provisioning with SAML-based SSO.
+            </p>
+          </div>
+        </div>
+
+        <div class="case-study">
+          <img src="./assets/anthropic_enterprise.svg" alt="Background" />
+          <div class="study-overlay">
+            <div class="study-content">
+              <span class="mono-label white">CUSTOMER STORY</span>
+              <h3>
+                See how Anthropic accelerates <br />
+                AI development with Mintlify
+              </h3>
+              <a href="#">Read story →</a>
+            </div>
+            <div class="study-stats">
+              <div class="stat">
+                <strong>2M+</strong>
+                <span>Monthly active developers</span>
+              </div>
+              <div class="stat">
+                <strong>3+</strong>
+                <span>Products serviced</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="enterprise-partners">
+          <div class="logo-item">
+            <img src="./assets/anthropic-partner.svg" alt="Anthropic" />
+          </div>
+          <div class="logo-item">
+            <img src="./assets/coinbase.svg" alt="Coinbase" />
+          </div>
+          <div class="logo-item">
+            <img src="./assets/hubspot.svg" alt="HubSpot" />
+          </div>
+          <div class="logo-item">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              id="Zapier--Streamline-Svg-Logos"
+              height="80"
+              width="80"
+            >
+              <desc>Zapier Streamline Icon: https://streamlinehq.com</desc>
+              <path
+                fill="#201515"
+                d="m5.76785 13.179525 -0.0033 -0.0105 2.08945 -1.91285v-0.92165H4.501825v0.92165h2.002275l0.0033 0.008825 -2.06905 1.914525v0.92165h3.449325v-0.92165h-2.119825Zm4.177775 -2.93275c-0.38665 0 -0.701775 0.0583 -0.94535 0.17495 -0.2269 0.101625 -0.418 0.269125 -0.548575 0.4807 -0.1249 0.21295 -0.203325 0.44995 -0.230125 0.695375l1.017125 0.14295c0.0368 -0.216725 0.110375 -0.370325 0.22075 -0.46085 0.112925 -0.0852 0.249475 -0.13245 0.3901 -0.13575l0.047 0.00055c0.20645 0 0.3562 0.055175 0.4492 0.16555 0.09225 0.1104 0.13915 0.263275 0.13915 0.4647v0.10045h-0.977975c-0.497825 0 -0.85545 0.110375 -1.072875 0.331125 -0.21745 0.220775 -0.326 0.512175 -0.325625 0.8742 0 0.370875 0.10855 0.646825 0.325625 0.82785 0.217075 0.181 0.490075 0.270975 0.819 0.269875 0.408025 0 0.721925 -0.140375 0.941525 -0.4211 0.129775 -0.172525 0.2224 -0.37 0.272075 -0.58005h0.03695l0.1402 0.921675h0.921625v-2.33395c0 -0.48235 -0.12705 -0.855975 -0.3813 -1.1209 -0.25425 -0.2649 -0.6671 -0.39735 -1.2385 -0.39735Zm0.322375 2.877c-0.146275 0.121975 -0.3378 0.182675 -0.5762 0.182675 -0.196475 0 -0.332975 -0.0344 -0.4095 -0.1032 -0.0373 -0.03255 -0.06695 -0.072925 -0.086875 -0.118225 -0.01995 -0.0453 -0.02965 -0.09445 -0.028475 -0.143925 -0.002175 -0.046675 0.005175 -0.0933 0.021575 -0.137025 0.016425 -0.04375 0.041575 -0.083675 0.0739 -0.1174 0.034975 -0.0328 0.07625 -0.058175 0.1213 -0.074575 0.0338 -0.0123 0.0692 -0.0194 0.104975 -0.02105l0.997825 0.00015v0.063475c0.001925 0.0897 -0.016775 0.178675 -0.0546 0.26 -0.037925 0.08135 -0.093975 0.152875 -0.163925 0.2091Zm6.87045 -2.78925h-1.088825v3.7672h1.088825V10.334525Zm6.42895 0c-0.3076 0 -0.55005 0.108525 -0.7274 0.325625 -0.12725 0.156 -0.22405 0.3865 -0.290225 0.6915h-0.032025l-0.142425 -1.017125h-0.929925v3.76665h1.088925v-1.931625c0 -0.24355 0.057025 -0.430275 0.171075 -0.560175 0.11405 -0.129875 0.3245 -0.1948 0.631325 -0.1948h0.413325v-1.08005h-0.18265Zm-3.20265 0.123075c-0.25415 -0.151225 -0.57485 -0.22665 -0.961875 -0.226275 -0.6093 0 -1.086125 0.173475 -1.4305 0.520425 -0.34445 0.34695 -0.516575 0.825275 -0.516575 1.434925 -0.008775 0.368575 0.0717 0.733825 0.23455 1.0646 0.149075 0.29475 0.381225 0.539375 0.6678 0.70365 0.288375 0.166675 0.6315 0.2502 1.0293 0.25055 0.343975 0 0.6313 -0.052975 0.862 -0.158925 0.2169 -0.095175 0.405725 -0.244325 0.548625 -0.43325 0.13595 -0.18545 0.236975 -0.39415 0.29795 -0.6159l-0.938125 -0.2627c-0.039575 0.144175 -0.1156 0.275725 -0.220775 0.3819 -0.106025 0.105975 -0.283575 0.15895 -0.5326 0.15895 -0.2962 0 -0.516975 -0.0848 -0.662275 -0.254425 -0.10545 -0.122525 -0.17165 -0.297475 -0.200875 -0.5243h2.569025c0.010525 -0.10595 0.016025 -0.194825 0.016025 -0.26655v-0.23455c0.006175 -0.315125 -0.058875 -0.62755 -0.190375 -0.91395 -0.123125 -0.2609 -0.322275 -0.478475 -0.5713 -0.624175Zm-0.993325 0.67165c0.441525 0 0.6918 0.21725 0.75105 0.651775h-1.5618c0.024775 -0.144975 0.0849 -0.281625 0.174925 -0.3979 0.143175 -0.169625 0.35505 -0.25425 0.635825 -0.253875Zm-2.765575 -2.312975c-0.0819 -0.0028 -0.163525 0.010925 -0.24005 0.0403 -0.0765 0.0294 -0.146275 0.073875 -0.205325 0.130775 -0.058075 0.05745 -0.103725 0.126375 -0.133825 0.202375 -0.024075 0.060825 -0.03785 0.1251 -0.040875 0.1902l-0.000225 0.04895c-0.0029 0.082225 0.0111 0.164175 0.0413 0.240725 0.0301 0.076575 0.07575 0.1461 0.133925 0.20425 0.058175 0.05815 0.12775 0.103675 0.20435 0.13375 0.0613 0.024075 0.125975 0.037825 0.191475 0.040825l0.04925 0.000225c0.081725 0.003075 0.163175 -0.010875 0.2392 -0.041 0.076025 -0.030125 0.144925 -0.07575 0.202325 -0.13395 0.057025 -0.058825 0.1014 -0.12855 0.13075 -0.205 0.02345 -0.06115 0.0368 -0.1256 0.03965 -0.1908l0.0002 -0.049025c0.00375 -0.081325 -0.009475 -0.16255 -0.0389 -0.238475 -0.029425 -0.075925 -0.074275 -0.1449 -0.1318 -0.2025 -0.0576 -0.057575 -0.126475 -0.10255 -0.202425 -0.132 -0.075825 -0.029475 -0.157075 -0.042775 -0.238425 -0.039075l-0.000575 -0.00055Zm-2.249475 1.41505c-0.370875 0 -0.668925 0.11645 -0.894025 0.34935 -0.166725 0.17255 -0.289075 0.4301 -0.367025 0.77265h-0.03475l-0.1424 -1.01715H11.98825v4.8478h1.088825V13.18725h0.03975c0.0332 0.133125 0.0798 0.262575 0.13905 0.386325 0.09215 0.201575 0.243225 0.370525 0.4333 0.48455 0.197025 0.10755 0.41905 0.16105 0.643475 0.155075 0.4559 0 0.80295 -0.1775 1.041375 -0.53255 0.238425 -0.35505 0.357675 -0.850475 0.357675 -1.48625 0 -0.614075 -0.1154 -1.094775 -0.346 -1.4421 -0.2307 -0.347325 -0.5738 -0.520975 -1.029325 -0.520975Zm0.1104 2.72965c-0.118525 0.1717 -0.299475 0.26325 -0.542975 0.2747l-0.053125 0.001225c-0.11145 0.00515 -0.2226 -0.016325 -0.3241 -0.062675 -0.1016 -0.046375 -0.19065 -0.11625 -0.259725 -0.203875 -0.140975 -0.176975 -0.211225 -0.41925 -0.210825 -0.72685v-0.071725c0 -0.312375 0.070225 -0.551525 0.210825 -0.717475 0.140475 -0.165925 0.335175 -0.247975 0.583825 -0.24615 0.275275 0 0.4752 0.0874 0.59995 0.26215 0.12475 0.174775 0.1871 0.418525 0.1871 0.731275 0.00075 0.3234 -0.062525 0.576525 -0.1899 0.7594h-0.00105Z"
+                stroke-width="0.25"
+              ></path>
+              <path
+                fill="#ff4f00"
+                d="M4.0172 13.1797H0.25v0.92275h3.7672v-0.92275Z"
+                stroke-width="0.25"
+              ></path>
+            </svg>
+          </div>
+          <div class="logo-item">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="68"
+              height="28"
+              viewBox="0 0 68 28"
+              fill="none"
+              aria-hidden="true"
+              class="group-focus-visible:outline-offset-4 group-focus-visible:outline-2 rounded-sm group-focus-visible:outline-brand h-8"
+            >
+              <path
+                d="M62.8872 19.5977C62.7054 19.5977 62.5802 19.4717 62.5802 19.2905V10.2888H59.5223C59.3405 10.2888 59.2151 10.1633 59.2151 9.98192V8.74023C59.2151 8.5584 59.3406 8.43261 59.5223 8.43261H67.662C67.8436 8.43261 67.9689 8.55854 67.9689 8.74023V9.98185C67.9689 10.1631 67.8436 10.2888 67.662 10.2888H64.6043V19.2903C64.6043 19.4717 64.4785 19.5977 64.2973 19.5977H62.8872ZM39.463 15.1035L37.8578 10.4984L36.2382 15.1035H39.463ZM43.0232 19.2339C43.0934 19.4158 42.9814 19.5977 42.7859 19.5977H41.3342C41.1247 19.5977 40.9989 19.5003 40.9289 19.304L40.1055 16.9323H35.5965L34.7717 19.304C34.7024 19.5003 34.5763 19.5977 34.3673 19.5977H32.9995C32.8178 19.5977 32.6919 19.4158 32.7618 19.2339L36.5452 8.71232C36.6152 8.51629 36.7408 8.43309 36.9498 8.43309H38.8207C39.0303 8.43309 39.1699 8.51636 39.2397 8.71232L43.0232 19.2339ZM53.8679 18.0901C54.761 18.0901 55.3617 17.6582 55.8504 16.9182L53.5891 14.4896C52.7231 14.9784 52.1644 15.4662 52.1644 16.4434C52.1645 17.4066 52.946 18.0901 53.8679 18.0901ZM54.4961 9.91189C53.7703 9.91189 53.3515 10.3729 53.3515 10.9868C53.3515 11.4613 53.6023 11.88 54.1749 12.4942C55.1661 11.9216 55.5851 11.5729 55.5851 10.959C55.5851 10.3864 55.2223 9.91189 54.4961 9.91189ZM60.6814 19.2068C60.8627 19.4024 60.7512 19.5977 60.5272 19.5977H58.7542C58.5169 19.5977 58.3913 19.5416 58.2378 19.3599L57.1768 18.1881C56.4649 19.1372 55.4728 19.8488 53.8258 19.8488C51.7875 19.8488 50.1815 18.6207 50.1815 16.5138C50.1815 14.8944 51.0476 14.0289 52.3601 13.3034C51.7174 12.5638 51.4248 11.7822 51.4248 11.0987C51.4248 9.3677 52.6393 8.18164 54.4679 8.18164C56.3387 8.18164 57.4838 9.28456 57.4838 10.9171C57.4838 12.3127 56.4788 13.0935 55.4174 13.6801L56.9813 15.3693L57.8607 13.8336C57.9723 13.6524 58.098 13.5824 58.321 13.5824H59.675C59.8987 13.5824 60.0244 13.7363 59.8852 13.9734L58.3212 16.6526L60.6814 19.2068ZM46.7485 19.5977C46.9299 19.5977 47.0562 19.4717 47.0562 19.2905V10.2888H50.1133C50.2947 10.2888 50.4203 10.1633 50.4203 9.98192V8.74023C50.4203 8.5584 50.2947 8.43261 50.1133 8.43261H41.9736C41.7918 8.43261 41.6665 8.55854 41.6665 8.74023V9.98185C41.6665 10.1631 41.7919 10.2888 41.9736 10.2888H45.0306V19.2903C45.0306 19.4717 45.1567 19.5977 45.338 19.5977H46.7485Z"
+                fill="var(--color-text-main)"
+              ></path>
+              <path
+                d="M5.4329 25.0269C7.8006 26.8597 10.7725 27.9609 13.9968 27.9609C17.5253 27.9609 20.742 26.6509 23.197 24.5005C23.2267 24.4742 23.2121 24.4568 23.1827 24.4742C22.0811 25.2099 18.9413 26.8159 13.9969 26.8159C9.70004 26.8159 6.98458 25.8572 5.4511 25.0013C5.42176 24.9868 5.41089 25.0088 5.4329 25.0269ZM14.9448 25.7405C18.3815 25.7405 22.1581 24.8036 24.4167 22.9491C25.0348 22.4439 25.6236 21.7714 26.1509 20.8676C26.4544 20.3476 26.7513 19.7298 26.9931 19.1225C27.0038 19.0928 26.9856 19.0784 26.9633 19.1117C24.8629 22.2027 18.7805 24.1307 12.5001 24.1307C8.06094 24.1307 3.28445 22.7111 1.41442 20.0006C1.39601 19.9755 1.37761 19.9862 1.38881 20.015C3.13088 23.7177 8.41591 25.7405 14.9448 25.7405ZM11.1898 19.5978C4.04212 19.5978 0.671824 16.2688 0.0604566 13.9971C0.0529172 13.9642 0.03125 13.9714 0.03125 14.0009C0.03125 14.7657 0.107799 15.7527 0.2395 16.4078C0.302328 16.7267 0.561858 17.2272 0.94236 17.6261C2.67315 19.4301 6.98825 21.9581 14.4613 21.9581C24.6431 21.9581 26.9711 18.5665 27.4465 17.4511C27.7864 16.6534 27.9626 15.2119 27.9626 14.001C27.9626 13.708 27.9552 13.4739 27.9441 13.2441C27.9441 13.2068 27.9225 13.2038 27.9151 13.2401C27.4063 15.9693 18.7071 19.5978 11.1898 19.5978ZM1.37761 8.01209C0.968034 8.82491 0.514041 10.1962 0.37908 10.9059C0.31992 11.21 0.345119 11.356 0.451757 11.583C1.30846 13.4006 5.64183 16.3089 15.7499 16.3089C21.9165 16.3089 26.7069 14.7939 27.483 12.0293C27.6259 11.5203 27.6336 10.983 27.45 10.259C27.2449 9.44987 26.8607 8.50636 26.5356 7.84385C26.5248 7.82225 26.5059 7.82544 26.5098 7.85098C26.6305 11.4771 16.5185 13.8141 11.4164 13.8141C5.88988 13.8141 1.27925 11.6122 1.27925 8.83184C1.27925 8.5647 1.33454 8.2975 1.40355 8.01943C1.41048 7.99402 1.38874 7.98981 1.37761 8.01209ZM23.2196 3.55999C23.2783 3.65196 23.3076 3.75011 23.3076 3.88222C23.3076 5.43329 18.5604 8.17721 11.0036 8.17721C5.4511 8.17721 4.41155 6.1174 4.41155 4.80745C4.41155 4.3392 4.59114 3.86007 4.98665 3.37348C5.00825 3.34455 4.98991 3.33341 4.96498 3.35494C4.24365 3.96624 3.58087 4.65408 2.99945 5.39661C2.72165 5.74777 2.5492 6.05885 2.5492 6.24523C2.5492 8.95988 9.35608 10.9281 15.7207 10.9281C22.5024 10.9281 25.529 8.71427 25.529 6.76871C25.529 6.07339 25.2583 5.66748 24.5659 4.88054C24.1165 4.36861 23.6913 3.95177 23.2414 3.54145C23.2196 3.52352 23.2045 3.53812 23.2196 3.55999ZM21.1406 2.00926C19.0476 0.75474 16.6172 0.0410156 13.9969 0.0410156C11.3584 0.0410156 8.85475 0.779667 6.75426 2.0674C6.12421 2.45517 5.76959 2.76592 5.76959 3.16537C5.76959 4.34287 8.52146 5.60893 13.4036 5.60893C18.2351 5.60893 21.9825 4.22217 21.9825 2.88729C21.9825 2.56867 21.7041 2.34575 21.1406 2.00926Z"
+                fill="var(--color-text-main)"
+              ></path>
+            </svg>
+          </div>
+        </div>
+      </article>
+
+      <section class="customers-section">
+        <div class="text-center">
+          <span class="mono-label">CUSTOMERS</span>
+          <h2>Unlock knowledge for any industry</h2>
+          <p>From frontier AI companies to consumer brands.</p>
+        </div>
+
+        <div class="carousel-wrapper">
+          <div class="carousel-track">
+            <div class="story-card">
+              <img src="./assets/perplexity-banner.png" alt="Perplexity" />
+              <p>How Perplexity transformed its documentation...</p>
+              <a href="#">Read story →</a>
+            </div>
+            <div class="story-card">
+              <img src="./assets/x-banner.png" alt="X" />
+              <p>How X is using Mintlify to power developer experience...</p>
+              <a href="#">Read story →</a>
+            </div>
+            <div class="story-card">
+              <img src="./assets/vercel-banner.png" alt="Vercel" />
+              <p>How Vercel streamlined their documentation workflow...</p>
+              <a href="#">Read story →</a>
+            </div>
+            <div class="story-card">
+              <img
+                src="./assets/glean-banner.png
+              "
+                alt="Glean"
+              />
+              <p>How Glean enhanced their enterprise knowledge base...</p>
+              <a href="#">Read story →</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <article class="cta-article">
+        <h2>Make documentation <br />your winning advantage</h2>
+        <p>
+          Join the leaders of tomorrow to future proof your documentation today.
+        </p>
+        <div class="cta-group">
+          <button class="cta-button dark">Get started for free</button>
+          <button class="cta-button light">Get a demo</button>
+        </div>
+
+        <div class="cta-links">
+          <div class="link-block">
+            <h3>Pricing on your terms</h3>
+            <a href="#">Pricing details →</a>
+          </div>
+          <div class="divider"></div>
+          <div class="link-block">
+            <h3>Start building</h3>
+            <a href="#">Quickstart →</a>
+          </div>
+        </div>
+      </article>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-top">
+          <div class="footer-logo">
+            <img src="./assets/mintlify-wordmark.svg" alt="Mintlify" />
+          </div>
+          <div class="footer-social">
+            <a href="#" class="social-link" aria-label="LinkedIn">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+              >
+                <path
+                  d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"
+                ></path>
+              </svg>
+            </a>
+            <a href="#" class="social-link" aria-label="X">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="18"
+                height="18"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+              >
+                <path
+                  d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"
+                ></path>
+              </svg>
+            </a>
+            <a href="#" class="social-link" aria-label="GitHub">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+              >
+                <path
+                  d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"
+                ></path>
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="footer-nav">
+          <div class="footer-nav-column">
+            <h4>EXPLORE</h4>
+            <ul>
+              <li><a href="#">Startups</a></li>
+              <li><a href="#">Enterprise</a></li>
+              <li><a href="#">Switch</a></li>
+              <li><a href="#">OSS Program</a></li>
+            </ul>
+          </div>
+          <div class="footer-nav-column">
+            <h4>RESOURCES</h4>
+            <ul>
+              <li><a href="#">Customers</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Pricing</a></li>
+              <li><a href="#">Guides</a></li>
+              <li><a href="#">Feature Requests</a></li>
+            </ul>
+          </div>
+          <div class="footer-nav-column">
+            <h4>DOCUMENTATION</h4>
+            <ul>
+              <li><a href="#">Getting Started</a></li>
+              <li><a href="#">API Reference</a></li>
+              <li><a href="#">Components</a></li>
+              <li><a href="#">Changelog</a></li>
+            </ul>
+          </div>
+          <div class="footer-nav-column">
+            <h4>COMPANY</h4>
+            <ul>
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">Wall of Love</a></li>
+            </ul>
+          </div>
+          <div class="footer-nav-column">
+            <h4>LEGAL</h4>
+            <ul>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Responsible Disclosure</a></li>
+              <li><a href="#">Terms Of Service</a></li>
+              <li><a href="#">Security</a></li>
+              <li><a href="#">DSR/DSAR</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer-security">
+          <span>Backed By Enterprise-Grade Security</span>
+          <img
+            src="./assets/lisence.png"
+            alt="AICPA SOC II"
+            class="security-badge-img"
+          />
+        </div>
+
+        <div class="footer-bottom">
+          <div class="footer-status">
+            <span class="status-dot"></span>
+            <span>All systems normal</span>
+          </div>
+          <div class="footer-copyright">© 2026 Mintlify, Inc.</div>
+          <div class="footer-theme">
+            <button class="theme-btn active" aria-label="System">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+              >
+                <path
+                  d="M4 6a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6zm2 0v10h12V6H6zm4 14a1 1 0 1 0 0 2h4a1 1 0 1 0 0-2h-4z"
+                ></path>
+              </svg>
+            </button>
+            <button class="theme-btn" aria-label="Light mode">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <circle cx="12" cy="12" r="5"></circle>
+                <line x1="12" y1="1" x2="12" y2="3"></line>
+                <line x1="12" y1="21" x2="12" y2="23"></line>
+                <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                <line x1="1" y1="12" x2="3" y2="12"></line>
+                <line x1="21" y1="12" x2="23" y2="12"></line>
+                <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+              </svg>
+            </button>
+            <button class="theme-btn" aria-label="Dark mode">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+              >
+                <path
+                  d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"
+                ></path>
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      // Simple scroll effect for header matching your style
+      const header = document.querySelector(".site-header");
+      const pageLogo = document.querySelector(".page-logo");
+
+      window.addEventListener("scroll", () => {
+        if (window.scrollY > 50) {
+          pageLogo.src = "assets/mintlify-wordmark.svg";
+          header.style.backdropFilter = "blur(10px)";
+        } else {
+          pageLogo.src = "assets/logo.svg";
+          header.style.backgroundColor = "transparent";
+          header.style.backdropFilter = "none";
+        }
+      });
+    </script>
+  </body>
+</html>
