@@ -165,8 +165,7 @@ video {
 }
 
 .primary-btn:hover {
-  background: #2a2a2a;
-  transform: translateY(-1px);
+  opacity: 0.7;
 }
 
 /* --- MAIN LAYOUT --- */
@@ -226,8 +225,8 @@ main {
 }
 
 .pill-badge:hover {
-  transform: translateY(-1px);
-  border-color: var(--text-accent);
+  cursor: pointer;
+  opacity: 0.7;
 }
 
 .badge-tag {
@@ -679,8 +678,7 @@ main {
 }
 
 .cta-button:hover {
-  transform: translateY(-2px);
-  box-shadow: var(--shadow-sm);
+  opacity: 0.8;
 }
 
 .cta-button.dark {
