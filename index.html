@@ -534,31 +534,22 @@
     </footer>
 
     <script>
-      document.addEventListener("DOMContentLoaded", () => {
-        const header = document.querySelector(".site-header");
-        const pageLogo = document.querySelector(".page-logo");
-        const headerNavItems = document.querySelectorAll(".nav-list-items");
+      // Simple scroll effect for header matching your style
+      const header = document.querySelector(".site-header");
+      const pageLogo = document.querySelector(".page-logo");
+      const headerNavItems = document.querySelectorAll(".nav-list-items");
 
-        const defaultLogo = "assets/logo.svg";
-        const scrolledLogo = "assets/mintlify-wordmark.svg";
-
-        window.addEventListener("scroll", () => {
-          const scrolled = window.scrollY > 50;
-
-          headerNavItems.forEach((item) => {
-            item.style.color = scrolled ? "#000" : "#ffffff";
-          });
-
-          pageLogo.src = scrolled ? scrolledLogo : defaultLogo;
-
-          if (scrolled) {
-            header.style.backdropFilter = "blur(10px)";
-            header.style.backgroundColor = "rgba(255, 255, 255, 0.7)";
-          } else {
-            header.style.backdropFilter = "none";
-            header.style.backgroundColor = "transparent";
-          }
-        });
+      window.addEventListener("scroll", () => {
+        if (window.scrollY > 50) {
+          headerNavItems.forEach((item) => (item.style.color = "#000"));
+          pageLogo.src = "assets/mintlify-wordmark.svg";
+          header.style.backdropFilter = "blur(10px)";
+        } else {
+          headerNavItems.forEach((item) => (item.style.color = "#fff"));
+          pageLogo.src = "assets/logo.svg";
+          header.style.backgroundColor = "transparent";
+          header.style.backdropFilter = "none";
+        }
       });
     </script>
   </body>

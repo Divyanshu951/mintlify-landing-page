@@ -96,8 +96,8 @@ video {
   left: 0;
   width: 100%;
   z-index: 1000;
-  background: rgba(255, 255, 255, 0.8);
-  backdrop-filter: blur(12px);
+  background: none;
+  backdrop-filter: none;
   border-bottom: 1px solid transparent;
   transition: border-color 0.3s ease;
 }
